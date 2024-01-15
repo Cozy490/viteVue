@@ -1,0 +1,28 @@
+{
+  "name": "my-vue-ts-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:staging": "vite --mode staging",
+    "dev:prod": "vite --mode production",
+    "build": "vue-tsc && vite build",
+    "build:staging": "vue-tsc && vite build --mode staging",
+    "build:prod": "vue-tsc && vite build --mode production",
+    "preview": "vite preview",
+    "check": "vue-tsc --noEmit && tsc --noEmit"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "less": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.27"
+  }
+}
